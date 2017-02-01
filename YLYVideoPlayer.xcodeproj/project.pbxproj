@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191A8F561DDAEE2000597BAA /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 191A8F4F1DDAEE2000597BAA /* Slider.m */; };
+		191A8F571DDAEE2000597BAA /* UIImage+ScaleToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 191A8F511DDAEE2000597BAA /* UIImage+ScaleToSize.m */; };
+		191A8F581DDAEE2000597BAA /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 191A8F531DDAEE2000597BAA /* UIImage+TintColor.m */; };
+		191A8F591DDAEE2000597BAA /* YLYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 191A8F551DDAEE2000597BAA /* YLYPlayerView.m */; };
+		19E17E891DD5BBCD009BD0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17E881DD5BBCD009BD0A7 /* main.m */; };
+		19E17E8C1DD5BBCD009BD0A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17E8B1DD5BBCD009BD0A7 /* AppDelegate.m */; };
+		19E17E8F1DD5BBCD009BD0A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17E8E1DD5BBCD009BD0A7 /* ViewController.m */; };
+		19E17E921DD5BBCD009BD0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E17E901DD5BBCD009BD0A7 /* Main.storyboard */; };
+		19E17E941DD5BBCD009BD0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E17E931DD5BBCD009BD0A7 /* Assets.xcassets */; };
+		19E17E971DD5BBCD009BD0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E17E951DD5BBCD009BD0A7 /* LaunchScreen.storyboard */; };
+		19E17EA21DD5BBCE009BD0A7 /* YLYVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17EA11DD5BBCE009BD0A7 /* YLYVideoPlayerTests.m */; };
+		19E17EAD1DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17EAC1DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.m */; };
+		19E17EBC1DD5BC11009BD0A7 /* YLYVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17EBB1DD5BC11009BD0A7 /* YLYVideoPlayer.m */; };
+		19E17ED71DD5BC28009BD0A7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17EBF1DD5BC28009BD0A7 /* MASCompositeConstraint.m */; };
+		19E17ED81DD5BC28009BD0A7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17EC21DD5BC28009BD0A7 /* MASConstraint.m */; };
+		19E17ED91DD5BC28009BD0A7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17EC41DD5BC28009BD0A7 /* MASConstraintMaker.m */; };
+		19E17EDA1DD5BC28009BD0A7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17EC61DD5BC28009BD0A7 /* MASLayoutConstraint.m */; };
+		19E17EDB1DD5BC28009BD0A7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17ECA1DD5BC28009BD0A7 /* MASViewAttribute.m */; };
+		19E17EDC1DD5BC28009BD0A7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17ECC1DD5BC28009BD0A7 /* MASViewConstraint.m */; };
+		19E17EDD1DD5BC28009BD0A7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17ECE1DD5BC28009BD0A7 /* NSArray+MASAdditions.m */; };
+		19E17EDE1DD5BC28009BD0A7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17ED11DD5BC28009BD0A7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		19E17EDF1DD5BC28009BD0A7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17ED31DD5BC28009BD0A7 /* View+MASAdditions.m */; };
+		19E17EE01DD5BC28009BD0A7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E17ED61DD5BC28009BD0A7 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19E17E9E1DD5BBCE009BD0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19E17E7C1DD5BBCD009BD0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E17E831DD5BBCD009BD0A7;
+			remoteInfo = YLYVideoPlayer;
+		};
+		19E17EA91DD5BBCE009BD0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19E17E7C1DD5BBCD009BD0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E17E831DD5BBCD009BD0A7;
+			remoteInfo = YLYVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191A8F4E1DDAEE2000597BAA /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		191A8F4F1DDAEE2000597BAA /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		191A8F501DDAEE2000597BAA /* UIImage+ScaleToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleToSize.h"; sourceTree = "<group>"; };
+		191A8F511DDAEE2000597BAA /* UIImage+ScaleToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleToSize.m"; sourceTree = "<group>"; };
+		191A8F521DDAEE2000597BAA /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		191A8F531DDAEE2000597BAA /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		191A8F541DDAEE2000597BAA /* YLYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYPlayerView.h; sourceTree = "<group>"; };
+		191A8F551DDAEE2000597BAA /* YLYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYPlayerView.m; sourceTree = "<group>"; };
+		19E17E841DD5BBCD009BD0A7 /* YLYVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLYVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E17E881DD5BBCD009BD0A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19E17E8A1DD5BBCD009BD0A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19E17E8B1DD5BBCD009BD0A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19E17E8D1DD5BBCD009BD0A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19E17E8E1DD5BBCD009BD0A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19E17E911DD5BBCD009BD0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19E17E931DD5BBCD009BD0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19E17E961DD5BBCD009BD0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19E17E981DD5BBCD009BD0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E17E9D1DD5BBCE009BD0A7 /* YLYVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLYVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E17EA11DD5BBCE009BD0A7 /* YLYVideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYVideoPlayerTests.m; sourceTree = "<group>"; };
+		19E17EA31DD5BBCE009BD0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E17EA81DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLYVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E17EAC1DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLYVideoPlayerUITests.m; sourceTree = "<group>"; };
+		19E17EAE1DD5BBCE009BD0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E17EBA1DD5BC11009BD0A7 /* YLYVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLYVideoPlayer.h; sourceTree = "<group>"; };
+		19E17EBB1DD5BC11009BD0A7 /* YLYVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLYVideoPlayer.m; sourceTree = "<group>"; };
+		19E17EBE1DD5BC28009BD0A7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		19E17EBF1DD5BC28009BD0A7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		19E17EC01DD5BC28009BD0A7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		19E17EC11DD5BC28009BD0A7 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		19E17EC21DD5BC28009BD0A7 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		19E17EC31DD5BC28009BD0A7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		19E17EC41DD5BC28009BD0A7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		19E17EC51DD5BC28009BD0A7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		19E17EC61DD5BC28009BD0A7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		19E17EC71DD5BC28009BD0A7 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		19E17EC81DD5BC28009BD0A7 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		19E17EC91DD5BC28009BD0A7 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		19E17ECA1DD5BC28009BD0A7 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		19E17ECB1DD5BC28009BD0A7 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		19E17ECC1DD5BC28009BD0A7 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		19E17ECD1DD5BC28009BD0A7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		19E17ECE1DD5BC28009BD0A7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		19E17ECF1DD5BC28009BD0A7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		19E17ED01DD5BC28009BD0A7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		19E17ED11DD5BC28009BD0A7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		19E17ED21DD5BC28009BD0A7 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		19E17ED31DD5BC28009BD0A7 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		19E17ED41DD5BC28009BD0A7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		19E17ED51DD5BC28009BD0A7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		19E17ED61DD5BC28009BD0A7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E17E811DD5BBCD009BD0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E17E9A1DD5BBCE009BD0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E17EA51DD5BBCE009BD0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191A8F4D1DDAEE2000597BAA /* YLYPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				191A8F4E1DDAEE2000597BAA /* Slider.h */,
+				191A8F4F1DDAEE2000597BAA /* Slider.m */,
+				191A8F501DDAEE2000597BAA /* UIImage+ScaleToSize.h */,
+				191A8F511DDAEE2000597BAA /* UIImage+ScaleToSize.m */,
+				191A8F521DDAEE2000597BAA /* UIImage+TintColor.h */,
+				191A8F531DDAEE2000597BAA /* UIImage+TintColor.m */,
+				191A8F541DDAEE2000597BAA /* YLYPlayerView.h */,
+				191A8F551DDAEE2000597BAA /* YLYPlayerView.m */,
+			);
+			path = YLYPlayerView;
+			sourceTree = "<group>";
+		};
+		19E17E7B1DD5BBCD009BD0A7 = {
+			isa = PBXGroup;
+			children = (
+				19E17EBD1DD5BC28009BD0A7 /* Masonry */,
+				19E17E861DD5BBCD009BD0A7 /* YLYVideoPlayer */,
+				19E17EA01DD5BBCE009BD0A7 /* YLYVideoPlayerTests */,
+				19E17EAB1DD5BBCE009BD0A7 /* YLYVideoPlayerUITests */,
+				19E17E851DD5BBCD009BD0A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19E17E851DD5BBCD009BD0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19E17E841DD5BBCD009BD0A7 /* YLYVideoPlayer.app */,
+				19E17E9D1DD5BBCE009BD0A7 /* YLYVideoPlayerTests.xctest */,
+				19E17EA81DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19E17E861DD5BBCD009BD0A7 /* YLYVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				191A8F4D1DDAEE2000597BAA /* YLYPlayerView */,
+				19E17E8A1DD5BBCD009BD0A7 /* AppDelegate.h */,
+				19E17E8B1DD5BBCD009BD0A7 /* AppDelegate.m */,
+				19E17E8D1DD5BBCD009BD0A7 /* ViewController.h */,
+				19E17E8E1DD5BBCD009BD0A7 /* ViewController.m */,
+				19E17EBA1DD5BC11009BD0A7 /* YLYVideoPlayer.h */,
+				19E17EBB1DD5BC11009BD0A7 /* YLYVideoPlayer.m */,
+				19E17E901DD5BBCD009BD0A7 /* Main.storyboard */,
+				19E17E931DD5BBCD009BD0A7 /* Assets.xcassets */,
+				19E17E951DD5BBCD009BD0A7 /* LaunchScreen.storyboard */,
+				19E17E981DD5BBCD009BD0A7 /* Info.plist */,
+				19E17E871DD5BBCD009BD0A7 /* Supporting Files */,
+			);
+			path = YLYVideoPlayer;
+			sourceTree = "<group>";
+		};
+		19E17E871DD5BBCD009BD0A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19E17E881DD5BBCD009BD0A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19E17EA01DD5BBCE009BD0A7 /* YLYVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				19E17EA11DD5BBCE009BD0A7 /* YLYVideoPlayerTests.m */,
+				19E17EA31DD5BBCE009BD0A7 /* Info.plist */,
+			);
+			path = YLYVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		19E17EAB1DD5BBCE009BD0A7 /* YLYVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19E17EAC1DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.m */,
+				19E17EAE1DD5BBCE009BD0A7 /* Info.plist */,
+			);
+			path = YLYVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		19E17EBD1DD5BC28009BD0A7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				19E17EBE1DD5BC28009BD0A7 /* MASCompositeConstraint.h */,
+				19E17EBF1DD5BC28009BD0A7 /* MASCompositeConstraint.m */,
+				19E17EC01DD5BC28009BD0A7 /* MASConstraint+Private.h */,
+				19E17EC11DD5BC28009BD0A7 /* MASConstraint.h */,
+				19E17EC21DD5BC28009BD0A7 /* MASConstraint.m */,
+				19E17EC31DD5BC28009BD0A7 /* MASConstraintMaker.h */,
+				19E17EC41DD5BC28009BD0A7 /* MASConstraintMaker.m */,
+				19E17EC51DD5BC28009BD0A7 /* MASLayoutConstraint.h */,
+				19E17EC61DD5BC28009BD0A7 /* MASLayoutConstraint.m */,
+				19E17EC71DD5BC28009BD0A7 /* Masonry.h */,
+				19E17EC81DD5BC28009BD0A7 /* MASUtilities.h */,
+				19E17EC91DD5BC28009BD0A7 /* MASViewAttribute.h */,
+				19E17ECA1DD5BC28009BD0A7 /* MASViewAttribute.m */,
+				19E17ECB1DD5BC28009BD0A7 /* MASViewConstraint.h */,
+				19E17ECC1DD5BC28009BD0A7 /* MASViewConstraint.m */,
+				19E17ECD1DD5BC28009BD0A7 /* NSArray+MASAdditions.h */,
+				19E17ECE1DD5BC28009BD0A7 /* NSArray+MASAdditions.m */,
+				19E17ECF1DD5BC28009BD0A7 /* NSArray+MASShorthandAdditions.h */,
+				19E17ED01DD5BC28009BD0A7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				19E17ED11DD5BC28009BD0A7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				19E17ED21DD5BC28009BD0A7 /* View+MASAdditions.h */,
+				19E17ED31DD5BC28009BD0A7 /* View+MASAdditions.m */,
+				19E17ED41DD5BC28009BD0A7 /* View+MASShorthandAdditions.h */,
+				19E17ED51DD5BC28009BD0A7 /* ViewController+MASAdditions.h */,
+				19E17ED61DD5BC28009BD0A7 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19E17E831DD5BBCD009BD0A7 /* YLYVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E17EB11DD5BBCE009BD0A7 /* Build configuration list for PBXNativeTarget "YLYVideoPlayer" */;
+			buildPhases = (
+				19E17E801DD5BBCD009BD0A7 /* Sources */,
+				19E17E811DD5BBCD009BD0A7 /* Frameworks */,
+				19E17E821DD5BBCD009BD0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLYVideoPlayer;
+			productName = YLYVideoPlayer;
+			productReference = 19E17E841DD5BBCD009BD0A7 /* YLYVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19E17E9C1DD5BBCE009BD0A7 /* YLYVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E17EB41DD5BBCE009BD0A7 /* Build configuration list for PBXNativeTarget "YLYVideoPlayerTests" */;
+			buildPhases = (
+				19E17E991DD5BBCE009BD0A7 /* Sources */,
+				19E17E9A1DD5BBCE009BD0A7 /* Frameworks */,
+				19E17E9B1DD5BBCE009BD0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E17E9F1DD5BBCE009BD0A7 /* PBXTargetDependency */,
+			);
+			name = YLYVideoPlayerTests;
+			productName = YLYVideoPlayerTests;
+			productReference = 19E17E9D1DD5BBCE009BD0A7 /* YLYVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19E17EA71DD5BBCE009BD0A7 /* YLYVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E17EB71DD5BBCE009BD0A7 /* Build configuration list for PBXNativeTarget "YLYVideoPlayerUITests" */;
+			buildPhases = (
+				19E17EA41DD5BBCE009BD0A7 /* Sources */,
+				19E17EA51DD5BBCE009BD0A7 /* Frameworks */,
+				19E17EA61DD5BBCE009BD0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E17EAA1DD5BBCE009BD0A7 /* PBXTargetDependency */,
+			);
+			name = YLYVideoPlayerUITests;
+			productName = YLYVideoPlayerUITests;
+			productReference = 19E17EA81DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19E17E7C1DD5BBCD009BD0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = YLY;
+				TargetAttributes = {
+					19E17E831DD5BBCD009BD0A7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 346SYPQ4JJ;
+						ProvisioningStyle = Automatic;
+					};
+					19E17E9C1DD5BBCE009BD0A7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 346SYPQ4JJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19E17E831DD5BBCD009BD0A7;
+					};
+					19E17EA71DD5BBCE009BD0A7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 346SYPQ4JJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19E17E831DD5BBCD009BD0A7;
+					};
+				};
+			};
+			buildConfigurationList = 19E17E7F1DD5BBCD009BD0A7 /* Build configuration list for PBXProject "YLYVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19E17E7B1DD5BBCD009BD0A7;
+			productRefGroup = 19E17E851DD5BBCD009BD0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E17E831DD5BBCD009BD0A7 /* YLYVideoPlayer */,
+				19E17E9C1DD5BBCE009BD0A7 /* YLYVideoPlayerTests */,
+				19E17EA71DD5BBCE009BD0A7 /* YLYVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19E17E821DD5BBCD009BD0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E17E971DD5BBCD009BD0A7 /* LaunchScreen.storyboard in Resources */,
+				19E17E941DD5BBCD009BD0A7 /* Assets.xcassets in Resources */,
+				19E17E921DD5BBCD009BD0A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E17E9B1DD5BBCE009BD0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E17EA61DD5BBCE009BD0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E17E801DD5BBCD009BD0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E17ED91DD5BC28009BD0A7 /* MASConstraintMaker.m in Sources */,
+				19E17E8F1DD5BBCD009BD0A7 /* ViewController.m in Sources */,
+				191A8F571DDAEE2000597BAA /* UIImage+ScaleToSize.m in Sources */,
+				191A8F581DDAEE2000597BAA /* UIImage+TintColor.m in Sources */,
+				19E17EBC1DD5BC11009BD0A7 /* YLYVideoPlayer.m in Sources */,
+				19E17ED81DD5BC28009BD0A7 /* MASConstraint.m in Sources */,
+				191A8F561DDAEE2000597BAA /* Slider.m in Sources */,
+				19E17EE01DD5BC28009BD0A7 /* ViewController+MASAdditions.m in Sources */,
+				19E17EDA1DD5BC28009BD0A7 /* MASLayoutConstraint.m in Sources */,
+				19E17EDD1DD5BC28009BD0A7 /* NSArray+MASAdditions.m in Sources */,
+				19E17EDC1DD5BC28009BD0A7 /* MASViewConstraint.m in Sources */,
+				19E17EDB1DD5BC28009BD0A7 /* MASViewAttribute.m in Sources */,
+				19E17EDF1DD5BC28009BD0A7 /* View+MASAdditions.m in Sources */,
+				19E17E8C1DD5BBCD009BD0A7 /* AppDelegate.m in Sources */,
+				19E17E891DD5BBCD009BD0A7 /* main.m in Sources */,
+				19E17ED71DD5BC28009BD0A7 /* MASCompositeConstraint.m in Sources */,
+				191A8F591DDAEE2000597BAA /* YLYPlayerView.m in Sources */,
+				19E17EDE1DD5BC28009BD0A7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E17E991DD5BBCE009BD0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E17EA21DD5BBCE009BD0A7 /* YLYVideoPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E17EA41DD5BBCE009BD0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E17EAD1DD5BBCE009BD0A7 /* YLYVideoPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19E17E9F1DD5BBCE009BD0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19E17E831DD5BBCD009BD0A7 /* YLYVideoPlayer */;
+			targetProxy = 19E17E9E1DD5BBCE009BD0A7 /* PBXContainerItemProxy */;
+		};
+		19E17EAA1DD5BBCE009BD0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19E17E831DD5BBCD009BD0A7 /* YLYVideoPlayer */;
+			targetProxy = 19E17EA91DD5BBCE009BD0A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19E17E901DD5BBCD009BD0A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E17E911DD5BBCD009BD0A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19E17E951DD5BBCD009BD0A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E17E961DD5BBCD009BD0A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19E17EAF1DD5BBCE009BD0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19E17EB01DD5BBCE009BD0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19E17EB21DD5BBCE009BD0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 346SYPQ4JJ;
+				INFOPLIST_FILE = YLYVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yly.YLYVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19E17EB31DD5BBCE009BD0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 346SYPQ4JJ;
+				INFOPLIST_FILE = YLYVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yly.YLYVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19E17EB51DD5BBCE009BD0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 346SYPQ4JJ;
+				INFOPLIST_FILE = YLYVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yly.YLYVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLYVideoPlayer.app/YLYVideoPlayer";
+			};
+			name = Debug;
+		};
+		19E17EB61DD5BBCE009BD0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 346SYPQ4JJ;
+				INFOPLIST_FILE = YLYVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yly.YLYVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLYVideoPlayer.app/YLYVideoPlayer";
+			};
+			name = Release;
+		};
+		19E17EB81DD5BBCE009BD0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 346SYPQ4JJ;
+				INFOPLIST_FILE = YLYVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yly.YLYVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLYVideoPlayer;
+			};
+			name = Debug;
+		};
+		19E17EB91DD5BBCE009BD0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 346SYPQ4JJ;
+				INFOPLIST_FILE = YLYVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yly.YLYVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLYVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E17E7F1DD5BBCD009BD0A7 /* Build configuration list for PBXProject "YLYVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E17EAF1DD5BBCE009BD0A7 /* Debug */,
+				19E17EB01DD5BBCE009BD0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E17EB11DD5BBCE009BD0A7 /* Build configuration list for PBXNativeTarget "YLYVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E17EB21DD5BBCE009BD0A7 /* Debug */,
+				19E17EB31DD5BBCE009BD0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E17EB41DD5BBCE009BD0A7 /* Build configuration list for PBXNativeTarget "YLYVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E17EB51DD5BBCE009BD0A7 /* Debug */,
+				19E17EB61DD5BBCE009BD0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E17EB71DD5BBCE009BD0A7 /* Build configuration list for PBXNativeTarget "YLYVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E17EB81DD5BBCE009BD0A7 /* Debug */,
+				19E17EB91DD5BBCE009BD0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19E17E7C1DD5BBCD009BD0A7 /* Project object */;
+}
